@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./static/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="{% static 'michael/animate.css' %}"> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./static/index.js"></script>
+    <link rel="stylesheet" href="./static/animate.css">
+
+
+    <title>patstune</title>
+</head>
+
+<body class="body">
+    <div id='homepic' class=" container-fluid homepic align-items-center justify-content-center">
+        <div id='homerow' class="row align-items-center justify-content-center">
+            <div class="col-sm-12 text-center">
+                <h1 class="font-weight-bold text-large font-large text-white 
+                hometext customfont px-5 px-sm-0 animate__animated animate__fadeIn animate__slower">PAT'S TUNE</h1>
+            </div>
+            <div class="col-sm-12 text-center">
+                <p class="text-capitalize font-weight-bold text-large font-large text-white 
+                  px-5 px-sm-0 animate__animated animate__fadeIn 
+                animate__slower">Rich Information for this generation</p>
+            </div>
+        </div>
+    </div>
+    <div class='wait_small' id='wait_small'>
+
+        <div class="container-fluid box_shadow animate__animated animate__fadeIn animate__slow position-relative">
+            <div class="row align-items-center justify-content-center brandcolor_border">
+                <nav class="navbar navbar-expand-lg fixed navbar-light w-100 brandcolor"
+                    style="background-color: inherit; ">
+                    <a class="navbar-brand  " style="">
+                        <!-- <img src="{% static 'michael/clipmask2.jpg' %}" class="nav-image" height="35px" width="35px"></img> -->
+                        <span class="customfont text-dark"> PATSTUNE</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse  " id="navbarNav">
+
+                        <ul class="nav navbar-nav navbar-right ml-auto">
+
+                            <li class="nav-text active navbar-right">
+                                <a href="./index.html" class="nav-link nav_link_ text-dark"
+                                    style=" font-weight: 350;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./education.html" class="nav-link nav_link_ text-dark"
+                                    style="font-weight: 350;">Education</a>
+                            </li>
+                            <li class="nav-text active  float-right">
+                                <a href="./information.html" class="nav-link nav_link_ text-dark"
+                                    style=" font-weight: 350;">Information <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-text active navbar-right">
+                                <a href="./africa.html" class="nav-link nav_link_ text-dark"
+                                    style=" font-weight: 350;">Africa</a>
+                            </li>
+                            <!-- <li class="nav-text active navbar-right">
+                                <a href="{% url 'firsttune:about' %}" class="nav-link nav_link_ text-dark" style=" font-weight: 350;">About</a>
+                            </li> -->
+
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+            <div class="row align-items-end justify-content-end position-absolute socials">
+                <div class="col-sm- ">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container bg-white py-5 mt-2 animate__animated animate__fadeIn animate__slower ">
+
+            <h6>Newest Articles</h6>
+
+            <div class="row align-items-end justify-content-start justify-content-md-start 
+             my-2 border_dark_ mb-4 mx-3 mx-sm-auto">
+
+
+                <div class="col-sm-3 mr-0 mr-md-5 mb-4 mb-md-0">
+                    <a href="./articles/best insurance companies.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/best insurance companies.png" class="img-fluid  img-responsive">
+                            <p class="my-3">Top 10 Best Insurance Companies in Ghana</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="col-sm-3 mr-0 mr-md-5 mb-4 mb-md-0">
+                    <a href="./articles/best it schools.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/best IT schools.png" class="img-fluid  ">
+                            <p class="my-3">Top 10 Best IT Schools in Ghana</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+
+
+                <!-- ads;ljgnsafd;gnadfsgnfdsg'afdgadsg sfjg;lfdsngfjdsgfod -->
+            </div>
+            <div class="row align-items-end justify-content-start justify-content-md-start
+             my-5 border_dark_ mb-4 mx-3 mx-sm-auto">
+                <div class="col-sm-3 mr-0 mr-md-5 mb-4 mb-md-0">
+                    <a href="./articles/best mixed schools.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/best mixed shs.jpg" class="img-fluid  ">
+                            <p class="my-3">Top 10 best mixed schools in Ghana</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="col-sm-3 mr-0 mr-md-5 mb-4 mb-md-0">
+                    <a href="./articles/best real estate companies.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/best real estate companies.jpg" class="img-fluid  ">
+                            <p class="my-3">Top 10 Best Real Estate Companies in Ghana</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="col-sm-3 mr-0 mr-md-5 mb-4 mb-md-0">
+                    <a href="./articles/best technical universities.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/best technical university.jpg" class="img-fluid  ">
+                            <p class="my-3">Top 10 Best Technical Universities in Ghana</p>
+
+
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <!-- asdfasdasdjipgbasflkuhsdfpgfdsgpufdsgno;sdfhgsfd jhasbfg;fsung;osdfginofsdgjfdsobsfd-->
+
+
+            </div>
+
+
+            <div class="row align-items-center justify-content-start justify-content-md-start my-2 
+            pt-2 border_dark_ mb-4 mx-3 mx-sm-auto">
+                <div class="col-sm-4 mb-4 mb-md-0 ">
+                    <a href="./articles/most beautiful private universities.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/most beautiful private universities.jpg" class="img-fluid  ">
+                            <p class="my-3">TOP 10 Most Beautiful Private Universities in Ghana</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <div class="col-sm-4 mb-4 mb-md-0 ">
+                    <a href="./articles/most expensive universities in Africa.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/most expensive schools in africa.png" class="img-fluid  ">
+                            <p class="my-3">Top 10 Most expensive Universities in Africa</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <div class="col-sm-4 mb-4 mb-md-0 ">
+                    <a href="./articles/best companies to work for.html" class="customcolor">
+                        <div class="">
+                            <img src="./static/best companies to work for.png" class="img-fluid  ">
+                            <p class="my-3">Top 10 Best Companies to Work For in Ghana</p>
+
+                        </div>
+                    </a>
+
+
+                </div>
+            </div>
+
+            <!-- askfgnosfdjgnsdfgnofsdgn[sofdgnfds]asgjnfsdg;nfsdg;fdsngjl'fdsng'lfsdgjnsfdg -->
+            <!-- <div class="row align-items-center justify-content-start justify-content-md-start my-2 
+            pt-2 border_dark_ mb-4 mx-3 mx-sm-auto">
+               
+            </div> -->
+
+
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+:root{
+    --b1: rgb(41, 55, 8);
+    --b1: rgb(5, 5, 32);
+}
+
+.body{
+    font-weight: 330;
+}
+
+.homepic{
+    background-image: url('./books3.jpeg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center     ;
+}
+
+.hometext{
+    font-size: 10vw;
+    text-decoration-line: underline;    
+}
+
+@font-face {
+    font-family: CustomFont;
+    src:  url('/static/firsttune/COBAISSI.otf');
+       }
+
+.customfont{
+    font-family: CustomFont;
+    text-decoration-line: underline;    
+
+
+}
+.customcolor{
+    color: var(--b1);  
+
+
+}
+
+.brandcolor_border{
+    border-bottom:2px solid var(--b1);
+}
+
+.d9{
+    /* background-color: #babdca23; */
+}
+
+.border_right_color{
+    border-right: 2px solid var(--b1);
+}
+
+
+.box_shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.border_dark_{
+    border-bottom: 0.5px solid var(--b1);
+}
+.post_col1{
+    /* position: absolute;
+    top: 5%; */
+}
+
+
+
+.bg_linear1{
+    background-image: linear-gradient(to bottom, transparent,  var(--b1), var(--b1));
+}
+
+@media screen and (min-width: 770px) {
+    .font_nice1{
+        line-height: 2;
+        font-size: 1.3rem;
+        font-weight: 350;
+        /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .font_nice1{
+        font-size: 1rem;
+        font-weight: 400;
+        /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.mesh1{
+  /* background-image: linear-gradient(to right, var(--b1), white); */
+   }
+.socials{
+    right: 5%;
+}
+
+.floated{
+    float: left;
+    width: 150px;
+}
