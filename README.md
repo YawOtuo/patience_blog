@@ -9,7 +9,7 @@ It features well written documents concerning relatable topics and stuff in Ghan
 ```
 How to start the project?
 1. Clone it
-2. Nothing else. It is fairly simple html and css
+2. Its uses basic html and css and js, no frameworks attached.
 ```
 
 ```
